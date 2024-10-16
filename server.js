@@ -15,7 +15,7 @@ app.use(cors());
 
 //MongoDB connection
 // mongodb+srv://jashan9garg:eeEwlxHsIWP2bzU5@cluster0.j1qae.mongodb.net/nfc?retryWrites=true&w=majority&ssl=false
-mongoose.connect(' ', {
+mongoose.connect('mongodb+srv://jashan9garg:eeEwlxHsIWP2bzU5@cluster0.j1qae.mongodb.net/nfc_card?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
