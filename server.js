@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 //MongoDB connection
-mongoose.connect('mongodb+srv://jashan9garg:eeEwlxHsIWP2bzU5@cluster0.j1qae.mongodb.net/', {
+mongoose.connect('mongodb+srv://jashan9garg:eeEwlxHsIWP2bzU5@cluster0.j1qae.mongodb.net/nfc?retryWrites=true&w=majority&ssl=false', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
